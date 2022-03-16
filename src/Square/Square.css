@@ -13,16 +13,19 @@
 
 .knight.goal {
     background-image: url('./knight.png'), url('./goal.png');
+    background-size: cover;
 }
 
 .knight {
     background-image: url('./knight.png');
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .goal {
     background-image: url('./goal.png');
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
