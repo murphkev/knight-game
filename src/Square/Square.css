@@ -1,0 +1,32 @@
+.square {
+    width: calc((100vmin - 70px) / 8);
+    height: calc((100vmin - 70px) / 8);
+    max-width: 75px;
+    max-height: 75px;
+    border: none;
+    background-color: #fff;
+}
+
+.black {
+    background-color: #6D696A;
+}
+
+.knight.goal {
+    background-image: url('./knight.png'), url('./goal.png');
+}
+
+.knight {
+    background-image: url('./knight.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.goal {
+    background-image: url('./goal.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.square:hover {
+    background-color: #87BAAB;
+}

@@ -1,0 +1,65 @@
+#game-container {
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#game {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nav {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav button {
+    height: 2.5em;
+    font-size: 1em;
+    padding: 0 10px 0 10px;
+    border: 4px solid #000;
+}
+
+#nav button:not(:first-of-type) {
+    margin-left: .5em;
+}
+
+#start-btn {
+    background-color:#F68E5F;
+}
+
+#help-btn {
+    background-color: #87BAAB;
+}
+
+#coords-btn {
+    background-color: #fff;
+}
+
+#message-bar {
+    width: calc(100% - 16px);
+    background-color: #6D696A;
+    height: 2.5em;
+    max-height: 15em;
+    overflow-y: scroll;
+    margin-top: 15px;
+    padding: 4px;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid #000;
+}
+
+.message {
+    font-size: .75em;
+    color: #000;
+}
+
+.message:first-child {
+    color: #F68E5F;
+}
