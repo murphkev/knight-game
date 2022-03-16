@@ -7,7 +7,7 @@ export default class Square extends React.Component {
         return <button 
             className={"square" + (this.props.black ? " black" : "") + (this.props.knight ? " knight" : "") + (this.props.goal ? " goal" : "")}
             onClick={() => this.props.sClick([this.props.x, this.props.y])}>
-                { this.props.showCoords ? "(" + this.props.x + ", " + this.props.y + ")" : ""}
+                { this.props.showCoords ? this.props.x + "," + this.props.y : ""}
         </button>
     }
 }
