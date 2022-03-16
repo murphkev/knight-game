@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/knight-game/static/css/main.3f9f2885.css",
+    "main.js": "/knight-game/static/js/main.c977afdd.js",
+    "index.html": "/knight-game/index.html",
+    "main.3f9f2885.css.map": "/knight-game/static/css/main.3f9f2885.css.map",
+    "main.c977afdd.js.map": "/knight-game/static/js/main.c977afdd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f9f2885.css",
+    "static/js/main.c977afdd.js"
+  ]
+}
