@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/knight-game/static/css/main.86531a22.css",
-    "main.js": "/knight-game/static/js/main.bec15b08.js",
+    "main.css": "/knight-game/static/css/main.a0d338fc.css",
+    "main.js": "/knight-game/static/js/main.bd5c66aa.js",
     "index.html": "/knight-game/index.html",
-    "main.86531a22.css.map": "/knight-game/static/css/main.86531a22.css.map",
-    "main.bec15b08.js.map": "/knight-game/static/js/main.bec15b08.js.map"
+    "main.a0d338fc.css.map": "/knight-game/static/css/main.a0d338fc.css.map",
+    "main.bd5c66aa.js.map": "/knight-game/static/js/main.bd5c66aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.86531a22.css",
-    "static/js/main.bec15b08.js"
+    "static/css/main.a0d338fc.css",
+    "static/js/main.bd5c66aa.js"
   ]
 }
